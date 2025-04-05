@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finit - Stock Market Highlights</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #0d47a1;
+      color: white;
+    }
+
+    .navbar h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .nav-buttons button {
+      margin-left: 1rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      background-color: #1976d2;
+      color: white;
+      transition: background 0.3s ease;
+    }
+
+    .nav-buttons button:hover {
+      background-color: #1565c0;
+    }
+
+    /* Main content */
+    .content {
+      padding: 2rem;
+    }
+
+    .highlight-box {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .highlight-box h2 {
+      color: #0d47a1;
+    }
+
+    .demat-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .demat-section h3 {
+      color: #0d47a1;
+    }
+
+    .demat-section button {
+      margin-top: 1rem;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      background-color: #ff6f00;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .demat-section button:hover {
+      background-color: #e65100;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h1>Finit</h1>
+    <div class="nav-buttons">
+      <button onclick="alert('Login form goes here')">Login</button>
+      <button onclick="alert('Signup form goes here')">Sign Up</button>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="highlight-box">
+      <h2>Today's Stock Market Highlights</h2>
+      <ul>
+        <li>Sensex closed 300 points higher</li>
+        <li>Nifty crossed 18,500 mark</li>
+        <li>Top gainers: Reliance, TCS, Infosys</li>
+        <li>IT and Pharma sectors lead rally</li>
+        <li>Crude oil prices stabilize</li>
+      </ul>
+    </div>
+
+    <div class="highlight-box">
+      <h2>Trending News</h2>
+      <ul>
+        <li>RBI keeps repo rate unchanged</li>
+        <li>Foreign investors increase holdings</li>
+        <li>AI-powered trading gaining popularity</li>
+        <li>Upcoming IPOs: XYZ Tech, Finverse</li>
+      </ul>
+    </div>
+
+    <div class="demat-section">
+      <h3>Boost Your Trading with Our Algorithmic Strategies!</h3>
+      <p>Join Finit and automate your trades for smarter investing.</p>
+      <button onclick="alert('Redirect to Open Demat Account page')">Open Demat Account</button>
+    </div>
+  </div>
+</body>
+</html>
